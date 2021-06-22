@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+ text-align: center;
+ font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+}
+header{
+  text-align: start;
+}
+.dcto{
+  background: #1CD1B0;
+  padding: 10px;
+}
+.dcto h2{
+  font-size: 15px;
+}
+nav{
+  background: #00669F;
+  padding: 28px;
+  
+}
+nav h1{
+  font-size: 41px;
+  
+}
+main{
+  margin-top: 154px;
+  margin-bottom: 152px;
+  height: 527px;
+  width: 960px;
+  
+  display: inline-block;
+  
+}
+section{
+  display: flex;
+  padding: 0;
+  
+  justify-content: space-between;
+}
+article{
+  width: 300px;
+  border: 1px solid blue ;
+  height: 527px;
+  border-radius: 16px;
+  position: relative;
+
+}
+.banner-batman{
+ background: url('./img/fondo-batman.png') no-repeat;
+}
+.banner-harley{
+  background: url('./img/fondo-harley.png') no-repeat;
+}
+.banner{
+  width: 100%;
+  height: 193px;
+  background-size: cover;
+  position: relative;
+}
+.banner img{
+   position: absolute;
+   left: 21px;
+   top: 16px;
+   cursor: pointer;
+}
+.foto{
+  border-radius: 50%;
+  position: absolute;
+  top: 128px;
+  left: 90px;
+}
+.info{
+  margin-top: 74px;
+  padding: 0 16px;
+}
+.info h1{
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+.info p{
+  text-align: start;
+}
+.btn-ver{
+  color: white;
+  background: #00669F;
+  width: 129px;
+  height: 49px;
+  margin-top: 37px;
+}
+.hl{
+  margin-top: 20px;
+}
+footer{
+  background: #00669F;
+  text-align: left;
+  
+  color: white;
+  padding: 16px;
+}
+footer h2{
+  font-size: 16px;
+}

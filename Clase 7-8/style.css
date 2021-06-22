@@ -1,0 +1,83 @@
+body{
+  margin: 0;
+}
+.header{
+background: url('./img/1.jpeg') no-repeat  center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 21px;
+}
+.list-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 0 0 50% ;
+  align-items: center;
+  padding: 5px 0;
+}
+.list-nav li a{
+  color: #2d4f7d;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+header{
+  background: #dbdaea;
+  margin: 0;
+}
+header img{
+  
+  border-radius: 50px;
+  border: 5px solid #2d4f7d;
+}
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+h1,h2{
+  text-transform: uppercase;
+  color: #2d4f7d;
+  background: #dbdaea;
+  font-weight: 700;
+  letter-spacing: 7px;
+}
+h1{
+  text-align: center;
+  margin: 0;
+  line-height: 50px;
+  
+}
+li{
+  line-height: 22px
+}
+main{
+  margin-top: 104px;
+  margin-bottom: 200px;
+}
+section{
+  margin-left: 225px;
+  margin-right: 174px;
+}
+.datos li{
+    font-style: italic;
+}
+footer{
+  text-align: center;
+}
+
+footer h2{
+  color: white;
+  text-transform: uppercase;
+  background: #2d4f7d;
+  letter-spacing: normal;
+  line-height: 35px;
+  margin: 0;
+}
+footer i {
+  margin-left: 26px;
+  cursor: pointer;
+}
+footer a{
+  color: white;
+}

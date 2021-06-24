@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+background-color: #E5E5E5;;
+}
+header{
+  background-color: #222222;
+  display: flex;
+  height: 100px;
+  align-items: center;
+}
+header ul{
+  color: white;
+  list-style: none;
+  display: flex;
+  margin-right: 7px;
+}
+#logoPizza{
+  margin-left: 20px;
+}
+header ul li{
+  margin-right: 13px;
+}
+header nav{
+  margin-left: auto;
+}
+section{
+  margin: 35px 0;
+  justify-content: center;
+  height: 350px;
+  display: flex; 
+}
+article{
+  width: 490px;
+  height: 100%;
+  margin-left: 5px; 
+}
+#envio{
+  background: url('./img/Delivery.png');
+  padding: 20px;
+  margin-left: 14px;
+}
+#podio{
+  background: #FFFFFF;
+  margin-right: 19px;
+  padding: 26px 74px 60px 51px;
+}
+.top5{
+  margin-top: 30px;
+  display: flex;
+}
+#podio h1{
+  color: red;
+  text-align: center;
+  font-size: 24px;
+}
+#podio h2{
+  margin-top: 20px;
+}
+ol{
+  margin-right: auto;
+}
+ol li{
+  font-weight: bold;
+  margin-top: 10px;
+}
+footer{
+  background-color: #222222;
+  padding:8px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  
+}
+footer ul{
+  color: white;
+  list-style: none;
+  margin-right: auto;
+}
+footer ul li{
+  margin-top: 12px;
+}
+footer img{
+  margin-right: 42px;
+}
